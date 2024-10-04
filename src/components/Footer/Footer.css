@@ -1,0 +1,144 @@
+.footer{
+    direction: rtl;
+    background-color: #111111;
+    color: #fff;
+    padding: 20px;
+    border-radius: 50px 0px 50px 0px;
+}
+.footer h1{
+    color: #00a9cf;
+    transition: 0.5s;
+}
+.footer h1:hover{
+    color: #fff;
+}
+.footer-flex{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto ;
+}
+.footer-left div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.footer-right div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.footer-left p{
+    width: 70%;
+    font-size: 16px;
+    line-height: 3;
+}
+.footer-right{
+    width: 50%;
+}
+.footer-right ul{
+    list-style: none;
+    text-align: center;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-right ul a{
+    color: #fff;
+    font-size: 30px;
+    color: #00a9cf;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer-right ul a:hover{
+    color: #fff;
+}
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+    padding: 10px 100px;
+}
+.footer-bottom div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-bottom div li{
+    list-style: none;
+}
+.waths{
+    background-color: #00a9cf;
+    padding: 10px;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.waths:hover{
+    background-color: #262b63;
+}
+.face{
+    background-color: #262b63;
+    padding: 10px;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.face:hover{
+    background-color: #00a9cf;
+}
+@media screen and (max-width:480px) {
+    .footer-flex{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .footer-left p{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-right{
+        width: 100%;
+    }
+    .footer-left div{
+        justify-content: center;
+    }
+    .footer-right div{
+        justify-content: center;
+    }
+    .footer-bottom div{
+        display: none;
+    }
+    .footer-bottom p{
+        text-align: center;
+    }
+}
+@media screen and (min-width:481px) and (max-width:786px){
+    .footer-flex{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .footer-left p{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-right{
+        width: 100%;
+    }
+    .footer-left div{
+        justify-content: center;
+    }
+    .footer-right div{
+        justify-content: center;
+    }
+    .footer-bottom div{
+        display: none;
+    }
+}

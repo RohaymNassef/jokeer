@@ -1,0 +1,44 @@
+.services{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center; 
+    direction: rtl;
+}
+.services h1{
+    background-color: #262b63;
+    color: #fff;
+    padding: 15px;
+    border-radius: 0px 0px 50px 50px;
+    margin-bottom: 30px;
+}
+.service div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.service div p{
+    color: #262b63;
+}
+.service{
+    border: 1px dotted #349ab9;
+    margin: 15px auto;
+    width: 75%;
+    border-radius: 10px;
+}
+.service-icon{
+    font-size: 30px;
+    color: #349ab9;
+    cursor: pointer;
+}
+.service-icon:hover{
+    animation: sun 1.5s infinite;
+}
+@keyframes sun{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,50 @@
+.anser{
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+}
+.ansers{
+    direction: rtl;
+}
+.quz p{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #262b63;
+}
+.quz-icon{
+    font-size: 30px;
+    color: #37aec8;
+}
+.ansers h2{
+    background-color: #37aec8;
+    width: 60%;
+    margin: 10px auto;
+    padding: 25px;
+    border-radius: 20px;
+    color: #fff;
+}
+.ansers p{
+    width: 40%;
+    margin: 10px auto;
+}
+h1{
+    color: #37aec8;
+    margin-bottom: 30px;
+}
+@media screen and (max-width:480px){
+    .ansers h2{
+        width: 90%;
+    }
+    .ansers p{
+        width: 80%;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    .ansers h2{
+        width: 90%;
+    }
+    .ansers p{
+        width: 80%;
+    }
+}
